@@ -1,7 +1,7 @@
 import React, { useEffect, useState, useRef } from "react";
 import "../App.css";
 
-const images = ["img/p2.jpeg", "img/p3.jpeg", "img/p4.jpeg"];
+const images = ["img/p2.jpeg", "img/p3.jpeg", "img/p4.jpeg" ,"img/p5.jpeg"];
 
 export default function PhotoSlider() {
   const [index, setIndex] = useState(0);
